@@ -4,7 +4,7 @@ import { IConfig } from "./interface";
 
 export const config: IConfig = {
   api: process.env.API || "https://api.openai.com",
-  openai_api_key: process.env.OPENAI_API_KEY || "123456789",
+  openai_api_key: process.env.OPENAI_API_KEY || "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",
   model: process.env.MODEL || "gpt-3.5-turbo",
   chatPrivateTriggerKeyword: process.env.CHAT_PRIVATE_TRIGGER_KEYWORD || "",
   chatTriggerRule: process.env.CHAT_TRIGGER_RULE || "",
